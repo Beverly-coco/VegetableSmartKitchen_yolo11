@@ -1,0 +1,26 @@
+{
+  "name": "VegetableRecognition",
+  "appid": "",
+  "description": "一个简单的蔬菜目标检测应用",
+  "versionName": "1.0.0",
+  "versionCode": "100",
+  "transformPx": false,
+  "quickapp": {},
+  "mp-weixin": {
+    "appid": ""
+  },
+  "h5": {
+    "title": "蔬菜目标检测"
+  },
+  "app-plus": {
+    "usingComponents": true,
+    "nvueCompiler": "uni-app",
+    "compilerVersion": 3,
+    "splashscreen": {
+      "alwaysShowBeforeRender": true,
+      "waiting": true,
+      "autoclose": true,
+      "delay": 0
+    }
+  }
+}

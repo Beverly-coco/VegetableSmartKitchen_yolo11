@@ -1,0 +1,12 @@
+Django
+djangorestframework
+drf-yasg
+ultralytics
+torch
+torchvision
+Pillow
+django-cors-headers
+mysqlclient
+opencv-python
+albumentations
+rembg 

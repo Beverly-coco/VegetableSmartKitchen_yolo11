@@ -1,0 +1,72 @@
+{
+  "pages": [
+    {
+      "path": "pages/login/login",
+      "style": {
+        "navigationBarTitleText": "登录"
+      }
+    },
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "智慧识别"
+      }
+    },
+    {
+      "path": "pages/train/train",
+      "style": {
+        "navigationBarTitleText": "模型训练"
+      }
+    },
+    {
+      "path": "pages/profile/profile",
+      "style": {
+        "navigationBarTitleText": "个人中心"
+      }
+    },
+    {
+      "path": "pages/dataset/manage",
+      "style": {
+        "navigationBarTitleText": "数据集管理"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "菜先知",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "easycom": {
+    "autoscan": true,
+    "custom": {
+      "mrsong-charts": "/uni_modules/mrsong-charts/components/mrsong-charts/mrsong-charts.vue"
+    }
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/image-icon-active.png",
+        "selectedIconPath": "static/image-icon-active.png",
+        "text": "识别"
+      },
+      {
+        "pagePath": "pages/train/train",
+        "iconPath": "static/train-icon-active.png",
+        "selectedIconPath": "static/train-icon-active.png",
+        "text": "训练"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "iconPath": "static/user-icon-active.png",
+        "selectedIconPath": "static/user-icon-active.png",
+        "text": "我的"
+      }
+    ]
+  }
+}
